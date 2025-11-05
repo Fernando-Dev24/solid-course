@@ -1,0 +1,40 @@
+// CLEAN CODE
+
+** VARIABLES
+No usar nombres de variables que usen numeros al inicio, abreviaciones excesivas, nombres que no tengan un valor adecuado
+
+MAL
+1. n = 553
+2. tx = 0.15
+3. ddmmyyy = new Date()
+
+BIEN
+1. numberOfUnits = 53
+2. tax = 0.15
+4. birthDate = new Date()
+
+** CLASES
+No usar nombres de acuerdo a lo que estamos usando, es decir, si yo en una clase le pongo de nombre classUser, ya la misma sintaxis del lenguaje me esta diciendo que es una clase, lo mismo pasa con interface or type en TS
+
+** NOMBRES SEGUN EL TIPO DE DATO
+- Arreglos: Se recomienda pluralizar los nombres
+- Booleanos: Prefijos como is, has, have tiene mas sentido en este tipo de dato, ademas siempre se intenta que el nombre sea el que almacenara el positivo y no incluir negativos
+- Numeros: min, max, total
+- funciones: se recomienda usar verbos + sustantivos: create, update, send, etc
+
+** NOMBRES DE CLASES
+Se recomienda que el nombre sea lo mas importante de la clase, sin caer, en nombre demasiado genericos
+Preguntas:
+1 - Que hace
+2 - Como exactamente esta clase realiza la tarea
+3 - Hay algo especifico sobre su ubicacion
+
+** NOMBRES DE FUNCIONES, ARGUMENTOS Y PARAMETROS
+- Se recomienda que el uso de parametros en funciones, siempre y cuando sea declarada en linea sea de 3 max
+- Se recomienda que los argumentos sean ordenados de manera alfabetica
+- Se prioriza que la simplicidad es fundamental
+- Funciones de tamaño reducido
+- Funciones de una sola linea sin causar complejidad
+- Menos de 20 lineas de codigo en funciones
+- Evita el uso del else
+- Prioriza el uso de condicionales ternarias
