@@ -38,3 +38,12 @@ Preguntas:
 - Menos de 20 lineas de codigo en funciones
 - Evita el uso del else
 - Prioriza el uso de condicionales ternarias
+
+PRINCIPIO DRY
+do not repeat yourself
+
+Este principio ayuda a:
+- Este principio se basa unica y exclusivamente en no repetir codigo
+- Simplificar las pruebas
+- Ayuda a centralizar procesos
+- Aplicar el principio DRY usualmente lleva a refactorizar
