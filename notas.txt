@@ -47,3 +47,7 @@ Este principio ayuda a:
 - Simplificar las pruebas
 - Ayuda a centralizar procesos
 - Aplicar el principio DRY usualmente lleva a refactorizar
+
+El principio de responsabilidad unica se basa es que una funcion o clase tiene que hacer una sola cosa y hacerla bien
+
+En las clases hay que tratar de priorizar la composicion frente a la herencia, es decir, tratar de evitar la herencia en las clases reemplazando su logica usando: la composicion, es decir, tener una clase aparte donde se implementen las tres juntas y asi evitamos la herencia
