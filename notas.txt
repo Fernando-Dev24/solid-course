@@ -51,3 +51,25 @@ Este principio ayuda a:
 El principio de responsabilidad unica se basa es que una funcion o clase tiene que hacer una sola cosa y hacerla bien
 
 En las clases hay que tratar de priorizar la composicion frente a la herencia, es decir, tratar de evitar la herencia en las clases reemplazando su logica usando: la composicion, es decir, tener una clase aparte donde se implementen las tres juntas y asi evitamos la herencia
+
+** Estructura recomendada para una clase
+En un equipo de trabajo, si es necesario crear una clase, lo recomendable seria hacerlo de la misma manera
+
+Orden recomendado:
+
+1. Lista de propiedades: static y public props, y private props de ultimo
+2. Metodos:
+   a. Empezando por los constructores estatico.
+   b. Luego el constructor.
+   c. Seguido de metodos estaticos.
+   d. Metodos privados despues.
+   e. Resto de metodos de instancia ordenados de mayor a menor importancia.
+   f. Getter y setters al final
+
+** Comentarios
+Los comentarios deberian de ser la excepcion y no la regla
+
+** Uniformidad en el proyecto
+Problemas similares, soluciones similares
+
+Esto se refiere a la forma en como nombramos nuestras funciones, que tenga sentido y que el codigo se explique por si solo, esto tambien aplica a la forma de estructurar nuestro proyecto

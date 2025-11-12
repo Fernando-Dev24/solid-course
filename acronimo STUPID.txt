@@ -1,0 +1,40 @@
+Este acronimo es una concatenacion de un monton de patrones de cosas que NO deberiamos hacer
+
+Esto tambien se conoce como codesmells, es decir, codigo que apesta JAJAJAJA
+
+6 codesmells que debemos de evitar
+
+1. Singleton
+2. Tight Coupling: alto acoplamiento
+3. Unestability: codigo no probable
+4. Premature optimization: optimizaciones prematuras
+5. Indescriptive naming: nombres pocos descriptivos
+6. Duplication: Duplicidad de codigo, no aplicar el principio DRY
+
+Singleton
+Pros: Garantiza una unica instancia de la clase a lo largo de toda la app
+Contras:
+   1. Vive en el contexto global
+   2. Puede ser modificado por cualquier y en cualquier momento
+   3. No es rastreable
+   4. Dificil de testear
+
+Tight Coupling
+Este patron se refiere a estas desventajas:
+
+1. Errores en efecto domino al cambiar nuestro codigo
+2. El ensamblaje de modulos requiere mas esfuerzo o tiempo debido a la mayor dependencia entre modulos
+3. Dificil de testear
+
+Lo ideal es tener un bajo acoplamiento y una buena cohesion
+
+La cohesion se refiere a lo que la clase o modulo puede hacer
+Y la baja cohesion significaria que la clase realizar una gran variedad de acciones, es amplia y no se enfoca en lo que debe hacer
+La alta cohesion es que una clase u objeto debe de contener solo aquello que se refiere
+
+El acoplamiento es
+
+Se refiere a cuan relacionadas son dos clases o modulos entre significaria
+En bajo acoplamiento significa que cambiar algo importante en una clase no deberia afectar a la otra
+
+En cambio, el alto acoplamiento se refiere a que si cambio algo importante en mi codigo este tendra errores en efecto domino haciendo dificil el mantenimiento del mismo
