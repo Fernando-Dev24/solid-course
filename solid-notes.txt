@@ -1,0 +1,28 @@
+Violentar uno de estos principios debe ser la excepcion, no la regla
+
+Los principios SOLID nos indican como organizar nuestras funciones y estructuras de datos en componentes y como dichos componentes deben de estar interconectados
+
+S INGLE RESPONSABILITY
+O PEN AND CLOSE
+L ISKOV SUBSTITUTION
+I NTERFACE SEGREGATION
+D EPENDENCY INVERSION
+
+SRP
+Una clase o modulo debe de tener solo UNA razon de ser, ahora bien, tener una unica responsabilidad es diferente a hacer una unica cosa
+
+Como detectarlo
+1. Nombres de clases y modulos demasiado genericos
+2. Cambios en el codigo sueles afectar la clase o modulo
+3. La clase involucra multiples capas
+4. Numero elevado de importaciones
+5. Cantidad elevada de metodos publicos
+6. Excesivo numero de lineas de codigo
+
+OCP - Principio de abierto y cerrado
+Abierto a extension, cerrado a modificacion
+Es un contexto que depende del contexto
+
+Como detectar la falta de OCP
+1. Cambiar normalmente afectan la clase o modulo constantenmente
+2. Cuando una clase o modulo afectan muchas capas (es decir, muchos archivos, componentes de la app)

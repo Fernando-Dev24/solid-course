@@ -38,3 +38,50 @@ Se refiere a cuan relacionadas son dos clases o modulos entre significaria
 En bajo acoplamiento significa que cambiar algo importante en una clase no deberia afectar a la otra
 
 En cambio, el alto acoplamiento se refiere a que si cambio algo importante en mi codigo este tendra errores en efecto domino haciendo dificil el mantenimiento del mismo
+
+** CODIGO NO TESTEABLE
+Codigo con alto acoplamiento
+Codigo con muchas dependencias inyectadas
+Dependencias en el contexto global
+
+Debemos de tener en mente las pruebas desde la creacion del codigo
+
+Optimizaciones prematuras
+Esto implica o cabe dentro de:
+
+Mantener abiertas las opciones retrasando la toma de decisiones nos permite darle mayor relevancia a lo que es mas importante en una app
+No debemos anticiparnos a los requisitos y desarrollar abstracciones innecesarias que puedan añadir complejidad accidental
+
+Complejidad accidental
+Cuando implementamos una solucion compleja a una tarea sencilla
+
+Complejidad esencial
+La complejidad es inherente al problema
+
+Entre estas dos se necesita tener un equilibrio o un balance
+
+INFLACION
+Cuando un metodo o funcion tiene demasiadas lineas de codigo, lo ideal, seria cortar todo el codigo en diferentes metodos o submetodos
+
+Las clases tambien es una parte importante de mantener con pequeñas tareas
+
+OBSESION PRIMITIVA
+El uso de primitivos en muchos lugares del codigo en lugar de usar matrices de datos
+
+LISTA LARGA DE PARAMETROS
+Mas de 3 o 4 argumentos en un metodo o funcion
+
+ACOPLADORES
+Feature Envy
+Un parametro o metodo que no usa sus propios parametros sino que hace uso de otros datos que no estan en el mismo lugar
+
+Intimidad Inapropiada
+Cuando una clase usa campos o metodos de otra clase, nos damos cuenta de esto, debido a que una clase pasa mas tiempo leyendo datos de otra clase
+
+CADENA DE MENSAJES
+Cuando tenemos una funcion A que llama a B y termina llamando a C
+La forma de solventarlo y acortar la comunicacion entre los metodos
+
+The middle man
+Cuando una clase realiza una accion que llama a otra clase
+Esto puede ser el resultado de una refactorizacion imcompleta
