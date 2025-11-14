@@ -26,3 +26,8 @@ Es un contexto que depende del contexto
 Como detectar la falta de OCP
 1. Cambiar normalmente afectan la clase o modulo constantenmente
 2. Cuando una clase o modulo afectan muchas capas (es decir, muchos archivos, componentes de la app)
+
+Liskov Substitution
+Siendo U un subtipo de T, cualquier instancia de T deberia poder ser sustituida por cualquier instancia de U sin alterar las propiedades del sistema
+
+INTERFACE SEGREGATION
