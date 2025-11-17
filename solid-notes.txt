@@ -30,4 +30,20 @@ Como detectar la falta de OCP
 Liskov Substitution
 Siendo U un subtipo de T, cualquier instancia de T deberia poder ser sustituida por cualquier instancia de U sin alterar las propiedades del sistema
 
-INTERFACE SEGREGATION
+INTERFACE SEGREGATION - ONLY TS
+Este principio dice que los clientes no deberian de verse forzados a depender de interfaces que no utilizan
+
+Como se detectan violaciones de ISP
+1. Si las interfaces nos obligan a violentar principios de responsabilidad unica y substitucion de Liskov seguramente estas violentando este principio tambien
+
+INVERSION DE DEPENDENCIAS
+Se debe de leer de esta manera
+
+1. Los modulos de alto nivel no deberian depender de modulos de bajo nivel
+2. Ambos deberian depender de abstracciones
+3. Las abstracciones no deberian depender de detalles
+4. Los detalles deberian depender de abstracciones
+
+Los componentes mas importantes son aquellos centrados en resolver el problema subyacente al negocio, es decir, la capa de dominio
+
+Cuando hablamos de abstracciones nos referimos a clases o interfaces
